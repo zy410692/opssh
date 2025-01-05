@@ -105,3 +105,5 @@ def test_create_db_user_with_privileges_execution_error(mock_connect, mock_args)
     
     # 验证是否执行了回滚
     mock_connection.rollback.assert_called_once() 
+
+    
